@@ -1,2 +1,6 @@
 name=input("Enter your name:")
-print("Hello "+name)
+if name=='':
+    print("Incorrect!Please try again")
+    else:
+        print("Hello "+name)
+        
